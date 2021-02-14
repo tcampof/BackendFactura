@@ -52,7 +52,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DB_Facturacion.bak" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -60,9 +59,6 @@
       <Project>{62e5b558-56f3-45b5-8437-9eeddd7b37dd}</Project>
       <Name>FacturaElectronica.Common</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Facturacion BD.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
